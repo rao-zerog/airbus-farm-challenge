@@ -1,0 +1,4 @@
+Severity,Count,Detected,Recall
+low,11,3,0.2727272727272727
+moderate,11,7,0.6363636363636364
+severe,12,12,1.0
