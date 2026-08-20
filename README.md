@@ -63,6 +63,7 @@ python -m pip install --upgrade pip
 python -m pip install "poetry>=2,<3"
 poetry install
 
+### Please use all the material - including data, models and scripts only from the main branch
 
 ## Reproduce the analysis
 
