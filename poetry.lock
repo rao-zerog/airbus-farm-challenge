@@ -14,6 +14,7 @@ files = [
 
 [package.dependencies]
 idna = ">=2.8"
+typing_extensions = {version = ">=4.5", markers = "python_version < \"3.13\""}
 
 [package.extras]
 trio = ["trio (>=0.32.0)"]
@@ -3090,6 +3091,7 @@ files = [
 [package.dependencies]
 attrs = ">=22.2.0"
 rpds-py = ">=0.7.0"
+typing-extensions = {version = ">=4.4.0", markers = "python_version < \"3.13\""}
 
 [[package]]
 name = "requests"
@@ -3859,5 +3861,5 @@ scikit-learn = ["scikit-learn"]
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.13,<3.14"
-content-hash = "b0f4f9eb660b972e14a776546cfce4869526e936f8305bcfbe593057ce1a3ed3"
+python-versions = ">=3.12,<3.14"
+content-hash = "401d399abe9f8e298c1697d1f68acbc24f6712bde2a1fc5a78368f942b733c19"
