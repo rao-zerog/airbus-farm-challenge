@@ -5,8 +5,7 @@ sound-pressure measurements caused by simulated instrument faults.
 
 ## Project status
 
-The project is currently in the clean-data EDA phase. The notebook
-[`notebooks/Airbus_FARM_Airfoil_EDA.ipynb`](notebooks/Airbus_FARM_Airfoil_EDA.ipynb)
+The project is currently in the clean-data EDA phase. The notebook - eda.ipynb
 provides:
 
 - schema normalization and validation;
@@ -16,37 +15,23 @@ provides:
 - focused plots of the target, frequency response, angle-of-attack effect, and
   operating-regime interactions.
 
-Model-development notebooks and a reusable Python package will follow in later
-branches.
 
 ## Environment setup
 
 Python 3.13 is recommended. Poetry is not required for the notebook phase.
 
-```bash
-python3.13 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements-notebooks.txt
-python -m jupyter lab
-```
 
 Open `notebooks/Airbus_FARM_Airfoil_EDA.ipynb` and run all cells. The notebook
 locates the source dataset whether Jupyter is started from the repository root
 or the `notebooks/` directory.
 
-## Data
+## EDA and Data preparation
 
-The source workbook is expected at:
+The source data is expected at folder: data/airfoil_self_noise-dataset.xlsx
 
-```text
-data/airfoil_self_noise-dataset.xlsx
-```
+The EDA is read-only: it does not split, overwrite, or export transformed data.
+The data-preparation.ipynb notebook prepares the train, val and test datasets, scales the features and target for use when necessary. Finally it intriduces noise of different ranges to the test set
 
-This EDA is read-only: it does not split, overwrite, or export transformed data.
-
-> **Modelling note:** Synthetic anomalies should be injected only into a
-> held-out test copy later. This EDA does not contaminate the clean source data.
 
 ## Dataset
 
