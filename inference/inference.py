@@ -2,7 +2,7 @@
 
 Example:
     python inference.py \
-        --model models/random_forest_regressor.joblib \
+        --model models/random_forest.joblib \
         --data data/inference.csv
 """
 
