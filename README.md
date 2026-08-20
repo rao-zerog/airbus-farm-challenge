@@ -3,11 +3,6 @@
 An end-to-end prototype for predicting airfoil self-noise and detecting anomalous
 sound-pressure measurements caused by simulated instrument faults.
 
-## Project status
-
-- EDA
-- Data preparation
-
 
 ## Environment setup
 
