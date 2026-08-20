@@ -5,15 +5,8 @@ sound-pressure measurements caused by simulated instrument faults.
 
 ## Project status
 
-The project is currently in the clean-data EDA phase. The notebook - eda.ipynb
-provides:
-
-- schema normalization and validation;
-- data-type, cardinality, missing-value, and duplicate checks;
-- descriptive statistics, skewness, and physical-value checks;
-- Pearson and Spearman relationship analysis; and
-- focused plots of the target, frequency response, angle-of-attack effect, and
-  operating-regime interactions.
+- EDA
+- Data preparation
 
 
 ## Environment setup
