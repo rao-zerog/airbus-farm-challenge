@@ -30,3 +30,14 @@ The data-preparation.ipynb notebook prepares the train, val and test datasets, s
 
 Brooks, T., Pope, D., & Marcolini, M. (1989). *Airfoil Self-Noise*.
 UCI Machine Learning Repository. <https://doi.org/10.24432/C5VW2C>
+
+## Models 
+
+This work compares the performance of deep learning and machine learning approaches.
+
+- Baseline ML - Linear Regression
+- Candidate model - XGBoost, Randomforest
+- Baseline DL - vanilla Pytorch models 
+- Candidate models - TabNetRegressor, TabPFNRegressor
+
+Multiple candidate models were trained and evaluated to compare predictive performance. The best-performing model was selected using the validation set and packaged as the single inference model. This provides a simple and reproducible interface for users while retaining the experimental comparison in the training notebook.
