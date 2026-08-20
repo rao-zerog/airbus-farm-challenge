@@ -57,10 +57,10 @@ source .venv/bin/activate
 On Windows PowerShell:
 .venv\Scripts\Activate.ps1
 
-3. Install Poetry and project dependencies
-With the virtual environment active:
-python -m pip install --upgrade pip
-python -m pip install "poetry>=2,<3"
+3. Install Poetry and project dependencies:
+
+pip install poetry 
+
 poetry install
 
 ### Please use all the material - including data, models and scripts only from the main branch
